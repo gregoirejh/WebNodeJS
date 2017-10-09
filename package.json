@@ -4,8 +4,8 @@
   "description": "first tp nodejs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "./bin/start",
+    "test": "./bin/test test/*"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/gregoirejh/WebNodeJS/issues"
   },
-  "homepage": "https://github.com/gregoirejh/WebNodeJS#readme"
+  "homepage": "https://github.com/gregoirejh/WebNodeJS#readme",
+  "dependencies": {
+    "mocha": "^4.0.1"
+  }
 }
