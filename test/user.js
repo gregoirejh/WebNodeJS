@@ -5,29 +5,22 @@ describe('user', function() {
   
   it('saves properly', function(done) {
     user.save("ok", "pwd", function(err) {
-      should.not.exist(err)
-      done()
+      should.not.exist(err);
+      done();
     })
   })
  
   it('doesn\'t save because missing parameter', function(done) {
     user.save("only name", function(err) {
-      should.exist(err)
-      done()
+      should.exist(err);
+      done();
     })
   })
   
   it('gets properly', function(done) {
     user.get("name", function(err) {
-      should.not.exist(err)
-      done()
-    })
-  })
-  
-  it('doesn\'t save because too many parameters', function(done) {
-    user.get("name", "pass", function(err) {
-      should.exist(err)
-      done()
+      should.not.exist(err);
+      done();
     })
   })
 })
