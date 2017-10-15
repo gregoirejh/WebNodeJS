@@ -1,3 +1,8 @@
 language: node_js
 node_js:
-  - "6.11.3"
+  - "node"
+  - "7"
+  - "6"
+before_install:
+  - npm install
+script: npm test
