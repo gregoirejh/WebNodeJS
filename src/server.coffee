@@ -36,7 +36,7 @@ module.exports =
       when "/"
         renderResource "index.pug", "html", res
       when "save"
-	    console.log "/save"
+        console.log "/save"
         user.save "testu", "testpwd", () ->
           res.writeHead 201, 
             'Content-Type': 'text/plain'
