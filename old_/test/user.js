@@ -1,6 +1,6 @@
 var should = require('should')
 var user = require('../lib/user.js')
-
+	
 describe('user', function() {
   
   it('saves properly', function(done) {

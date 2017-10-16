@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "./bin/start",
-    "test": "./bin/test test/*"
+    "test": "./bin/test test/*",
+    "compile": "./bin/compile"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,11 @@
   },
   "homepage": "https://github.com/gregoirejh/WebNodeJS#readme",
   "dependencies": {
+    "coffee-script": "^1.12.7",
     "mocha": "^4.0.1",
-    "should": "^13.1.2"
+    "pug": "^2.0.0-rc.4",
+    "pug-cli": "^1.0.0-alpha6",
+    "should": "^13.1.2",
+    "stylus": "^0.54.5"
   }
 }
